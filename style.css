@@ -1,0 +1,54 @@
+/* 
+Credits : 
+Music Player Neumorphism Style by Sazzad Sazib 
+https://dribbble.com/shots/9153970-Music-Player-Neumorphism-Style
+
+Filter combination for inset-shadow 
+https://codepen.io/venend/pen/KqKMOM
+*/
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #131419;
+}
+
+.soft {
+  box-shadow: -3px -3px 3px 0 rgba(255, 255, 255, 0.04),
+    5px 5px 5px 0 rgba(0, 0, 0, 2);
+}
+.containerSoft {
+  box-shadow: -6px -6px 16px 0 rgba(255, 255, 255, 0.1),
+    6px 6px 16px 0 rgba(0, 0, 0, 2);
+}
+.imgSoft {
+  box-shadow: -6px -6px 16px 0 rgba(255, 255, 255, 0.08),
+    8px 8px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  width: 480px;
+  height: 750px;
+  background-color: #17191e;
+}
+
+.eq-empty {
+  color: #282b33;
+}
+
+.eq-filled {
+  color: #c3c3c3;
+}
+
+.text-header {
+  color: #505050;
+}
+
+.soft:active {
+  box-shadow: -1px -1px 1px 0 rgba(255, 255, 255, 0.04),
+    1px 1px 1px 0 rgba(0, 0, 0, 2);
+}
+.soft:focus {
+  outline: none;
+}
